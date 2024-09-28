@@ -64,7 +64,7 @@ int main() {
                         break;
                     }
                 }
-                if (trouve == 0)
+                if (!trouve)
                     printf("Livre non trouve\n");
                 break;
 
@@ -84,7 +84,7 @@ int main() {
                         break;
                     }
                 }
-                if (trouve == 0)
+                if (!trouve)
                     printf("Livre non trouve\n");
                 break;
 
@@ -108,7 +108,7 @@ int main() {
                         break;
                     }
                 }
-                if (trouve == 0)
+                if (!trouve)
                     printf("Livre non trouve\n");
                 break;
 
